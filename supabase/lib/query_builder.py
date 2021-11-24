@@ -30,7 +30,7 @@ def _execute_monkey_patch(self) -> Dict[str, Any]:
     query: str = str(self.session.params)
     response = func(f"{url}?{query}", headers=self.session.headers, **additional_kwargs)
     return {
-        "data": response.json(),
+        "data": response.json() if len(response.content) > 0 else "",
         "status_code": response.status_code,
     }
 
