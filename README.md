@@ -6,7 +6,7 @@
 
 Supabase client for Python. This mirrors the design of [supabase-js](https://github.com/supabase/supabase-js/blob/master/README.md)
 
-## Status
+## Status 2
 
 - [x] Alpha: We are testing Supabase with a closed set of customers
 - [x] Public Alpha: Anyone can sign up over at [app.supabase.io](https://app.supabase.io). But go easy on us, there are a few kinks.
